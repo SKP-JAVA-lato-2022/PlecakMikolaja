@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="269ee64d-f516-4cf2-9feb-ad5bf92b905a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Magazyn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Pakowalnia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Prezent.java" afterDir="false" />
+    <list default="true" id="269ee64d-f516-4cf2-9feb-ad5bf92b905a" name="Changes" comment="Dodanie pól do klasy Pakowalnia oraz stworzenie konstruktora, który będzie odpowiadał za działanie programu">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Magazyn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Magazyn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Pakowalnia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Pakowalnia.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +36,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/PJTeb/PlecakMikolaja"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -54,8 +52,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676918118856</updated>
-      <workItem from="1676918120400" duration="1369000" />
+      <workItem from="1676918120400" duration="6219000" />
+      <workItem from="1677329234820" duration="94000" />
+      <workItem from="1677329432409" duration="1673000" />
     </task>
+    <task id="LOCAL-00001" summary="Stworzenie klas, które będą wykorzystywane w projekcie">
+      <created>1676919822208</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676919822208</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Dodanie pól do klasy prezent, stworzenie konstruktora oraz geterów">
+      <created>1676920026559</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676920026560</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Stworzenie listy w klasie Magazyn, która będzie przechowywać prezenty do rozwiezienia">
+      <created>1676920293762</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676920293762</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Zmiana listy na mape">
+      <created>1676922140973</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676922140973</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Dodanie pól do klasy Pakowalnia oraz stworzenie konstruktora, który będzie odpowiadał za działanie programu">
+      <created>1676922339601</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676922339601</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,5 +107,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Stworzenie klas, które będą wykorzystywane w projekcie" />
+    <MESSAGE value="Dodanie pól do klasy prezent, stworzenie konstruktora oraz geterów" />
+    <MESSAGE value="Stworzenie listy w klasie Magazyn, która będzie przechowywać prezenty do rozwiezienia" />
+    <MESSAGE value="Zmiana listy na mape" />
+    <MESSAGE value="Dodanie pól do klasy Pakowalnia oraz stworzenie konstruktora, który będzie odpowiadał za działanie programu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie pól do klasy Pakowalnia oraz stworzenie konstruktora, który będzie odpowiadał za działanie programu" />
   </component>
 </project>

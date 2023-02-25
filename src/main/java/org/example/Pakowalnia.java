@@ -1,26 +1,23 @@
 package org.example;
 
-import java.util.HashMap;
-
 public class Pakowalnia {
-    private HashMap<Integer, Prezent> magazynPrezentow;
-    private final double pojemnoscPlecaka = 4.0;
-    private int iloscKursow = 0;
-
-    Magazyn magazyn = new Magazyn(magazynPrezentow);
+    Magazyn magazyn = new Magazyn();
+    Magazyn magazynPrezentow = new Magazyn();
 
     public Pakowalnia() {
-        int obecnaWaga = 0;
-        for (int i = 0; i < magazynPrezentow.size(); i++) {
-            double waga = magazynPrezentow.get(i).getWaga();
+        double obecnaWaga = 0;
+        int iloscKursow = 0;
+        for (int i = 1; i <= magazyn.getMagazynPrezentow().size(); i++) {
+            double waga = magazyn.getMagazynPrezentow().get(i).getWaga();
+            double pojemnoscPlecaka = 4.0;
             if(obecnaWaga + waga <= pojemnoscPlecaka) {
                 obecnaWaga += waga;
             } else {
                 iloscKursow++;
-                obecnaWaga = 0;
+                obecnaWaga = waga;
             }
         }
-
-        System.out.println(iloscKursow);
+        iloscKursow++;
+        System.out.println("Ilość wykonanych kórsów: " + iloscKursow);
     }
 }
